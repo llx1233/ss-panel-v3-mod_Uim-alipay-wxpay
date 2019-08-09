@@ -697,4 +697,5 @@ ALTER TABLE `paylist`
 ALTER TABLE `paylist`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;ALTER TABLE `user_traffic_log` CHANGE `u` `u` BIGINT(20) NOT NULL, CHANGE `d` `d` BIGINT(20) NOT NULL;
 
-ALTER TABLE `user` ADD `discord` BIGINT NULL AFTER `telegram_id`; 
+INSERT INTO `user` VALUES (1, 'admin', 'admin', 'f597d57ba06bbe51a00fe62d3a643bb8daca07a63237418d5042f54a586bcf7e', '8GmpAV', 0, 0, 0, 'A', 1073741824, 59958, 1, 1, 1, 0, 0, 0, '2018-12-26 22:18:18', 10, 0.00, 0, 0, 'rc4-md5', 0, '127.0.0.1', 0.00, 0, 1, 1, '', 0, 1, 0, '1989-6-4 00:05:00', '2028-12-23 22:18:18', 'material', 'VNUDNKQVCUQJFSJR', 0, NULL, NULL, 0, 0, 0.00, 'origin', NULL, 'plain', NULL, NULL, NULL, NULL, 0, 0, NULL);
+commit;
